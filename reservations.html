@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reservations</title>
+    <link rel="icon" href="Images/Picture2.png">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <link rel="stylesheet" href="reservations.css">
+</head>
+<body>
+<section class="banner">
+    <h2>Book Your Table Now</h2>
+    <div class="card-container">
+        <div class="card-img">
+
+        </div>
+
+        <div class="card-content">
+            <h3>Reservation</h3>
+            <form>
+                <div class="form-row">
+                    <select name = "days">
+                        <option value = "day-select"> Select Day </option>
+                        <option value = "Sunday"> Sunday </option>
+                        <option value = "Monday"> Monday </option>
+                        <option value = "Tuesday"> Tuesday </option>
+                        <option value = "Wednesday"> Wednesday </option>
+                        <option value = "Thursday"> Thursday </option>
+                        <option value = "Friday"> Friday </option>
+                        <option value = "Saturday"> Saturday </option>
+                    </select>
+
+                    <select name="hours">
+                        <option value = "hour-select"> Select Hour </option>
+                        <option value = "10"> 10:00 AM </option>
+                        <option value = "10"> 11:00 AM</option>
+                        <option value = "10"> 12:00 PM</option>
+                        <option value = "10"> 1:00 PM </option>
+                        <option value = "10"> 2:00 PM </option>
+                        <option value = "10"> 3:00 PM </option>
+                        <option value = "10"> 4:00 PM</option>
+                        <option value = "10"> 5:00 PM</option>
+                        <option value = "10"> 6:00 PM</option>
+                        <option value = "10"> 7:00 PM</option>
+                        <option value = "10"> 8:00 PM</option>
+                        <option value = "10"> 9:00 PM</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <input type="text"
+                           placeholder = "Full Name">
+                    <input type="text"
+                           placeholder = "PhoneNumber">
+                </div>
+
+                <div class="form-row">
+                    <input type="number"
+                           placeholder = "How many persons?" min = "1" max = "50">
+                    <input type="submit"
+                           value= "Book Table">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+</body>
+</html>

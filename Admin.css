@@ -1,0 +1,154 @@
+
+* {box-sizing: border-box}
+body {
+    font-family: "Century Gothic", sans-serif;
+    background-image :url('Images/choc.png');
+
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    margin-top: -20px;
+    background-color: rgba(23, 49, 49, 0.5);
+    color: #dadada;
+    margin-left: 210px;
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 80%;
+    /*border-left: none;*/
+    height: 550px;
+    display: none;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Style the links inside the sidenav */
+#mySidenav a {
+    margin-top: 170px;
+    position: absolute; /* Position them relative to the browser window */
+    left: 0px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 200px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-family: "Century Gothic" ,serif;
+    font-size: 15px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    width: 180px;
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#tab11 {
+    top: 20px;
+    background-color: #5cc6c6;
+}
+
+#tab22 {
+    top: 80px;
+    background-color: #51adad;
+}
+
+#tab33 {
+    top: 140px;
+    background-color: #459494;
+}
+
+#tab44 {
+    top: 200px;
+    background-color: #3a7c7c;
+}
+
+#tab55 {
+    top: 260px;
+    background-color: #3a7c7c;
+}
+
+.S{
+    margin-left: -20px;
+    margin-top: -30px;
+}
+
+h2,tr{
+    font-family: "Century Gothic", serif;
+    color: white;
+}
+
+.hero{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero form{
+    height: 500px;
+    padding: 80px;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.hero .input-group{
+
+    margin-bottom: 30px;
+    position: relative;
+}
+.hero input{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+.hero label{
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.hero button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 80%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+ input:focus~label,
+ input:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row .input-group{
+    flex-basis: 48%;
+}

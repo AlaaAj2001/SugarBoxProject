@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="Images/Picture2.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order</title>
+  <link rel="stylesheet" href="order.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+<div class="container">
+  <div class="contact-box">
+    <div class="left"></div>
+    <div class="right">
+      <h2><img src="Images/icons8-order-100.png" alt=""></h2>
+      <input type="text" class="field" placeholder="Your Name">
+      <input type="number" class="field" placeholder="Your PhoneNumber">
+      <div class="multiselect">
+        <div class="selectBox" onclick="showCheckboxes()">
+          <select>
+            <option> Choose From the List </option>
+          </select>
+          <div class="overSelect"></div>
+        </div>
+        <!---------List of checkboxes and options----------->
+        <div style="height: 100px; overflow: scroll; width: 250px;" class="list" id="checkboxes">
+          <label for="task1" class="task">
+            <input type="checkbox" name="" id="task1">
+            كريب عادي
+            <span>13₪</span>
+          </label>
+
+          <label for="task2" class="task">
+            <input type="checkbox" name="" id="task2">
+            كريب عجين الشوكولاتة
+            <span>14₪</span>
+          </label>
+
+          <label for="task3" class="task">
+            <input type="checkbox" name="" id="task3">
+            كريب ريد فيلفيت
+            <span>15₪</span>
+          </label>
+
+          <label for="task4" class="task">
+            <input type="checkbox" name="" id="task4">
+            كريب رول
+            <span>17₪</span>
+          </label>
+
+          <label for="task5" class="task">
+            <input type="checkbox" name="" id="task5">
+            فوتوتشيني كريب
+            <span>20₪</span>
+          </label>
+
+          <label for="task6" class="task">
+            <input type="checkbox" name="" id="task6">
+            كريب ميكس
+            <span>20₪</span>
+          </label>
+
+          <label for="task7" class="task">
+            <input type="checkbox" name="" id="task7">
+            لقمة حجم صغير
+            <span>12₪</span>
+          </label>
+
+          <label for="task8" class="task">
+            <input type="checkbox" name="" id="task8">
+            لقمة حجم وسط
+            <span>14₪</span>
+          </label>
+
+          <label for="task9" class="task">
+            <input type="checkbox" name="" id="task9">
+            لقمة حجم كبير
+            <span>15₪</span>
+          </label>
+
+          <label for="task10" class="task">
+            <input type="checkbox" name="" id="task10">
+            وافل
+            <span>17₪</span>
+          </label>
+
+          <label for="task11" class="task">
+            <input type="checkbox" name="" id="task11">
+            وافل ساندويش بالبوظة
+            <span>18₪</span>
+          </label>
+
+          <label for="task12" class="task">
+            <input type="checkbox" name="" id="task12">
+            وافل ساندويش بالفواكه
+            <span>20₪</span>
+          </label>
+
+          <label for="task13" class="task">
+            <input type="checkbox" name="" id="task13">
+            برج الوافل
+            <span>20₪</span>
+          </label>
+
+          <label for="task14" class="task">
+            <input type="checkbox" name="" id="task14">
+            بيتزا حجم صغير
+            <span>20₪</span>
+          </label>
+
+          <label for="task15" class="task">
+            <input type="checkbox" name="" id="task15">
+            بيتزا حجم وسط
+            <span>30₪</span>
+          </label>
+
+          <label for="task16" class="task">
+            <input type="checkbox" name="" id="task16">
+            بيتزا حجم كبير
+            <span>40₪</span>
+          </label>
+
+          <label for="task17" class="task">
+            <input type="checkbox" name="" id="task17">
+            شوروز
+            <span>8₪</span>
+          </label>
+
+          <label for="task18" class="task">
+            <input type="checkbox" name="" id="task18">
+            بان كيك
+            <span>17₪</span>
+          </label>
+
+          <label for="task19" class="task">
+            <input type="checkbox" name="" id="task19">
+            بان كيك اكسترا
+            <span>20₪</span>
+          </label>
+
+          <label for="task20" class="task">
+            <input type="checkbox" name="" id="task20">
+            قطعة كوكيز
+            <span>5₪</span>
+          </label>
+
+          <label for="task21" class="task">
+            <input type="checkbox" name="" id="task21">
+            وجبة كوكيز
+            <span>17₪</span>
+          </label>
+
+          <label for="task22" class="task">
+            <input type="checkbox" name="" id="task22">
+            قطعة دونات
+            <span>6₪</span>
+          </label>
+
+          <label for="task23" class="task">
+            <input type="checkbox" name="" id="task23">
+            دوناتس بوظة
+            <span>8₪</span>
+          </label>
+
+          <label for="task24" class="task">
+            <input type="checkbox" name="" id="task24">
+            ميلك شيك فانيلا
+            <span>10₪</span>
+          </label>
+
+          <label for="task25" class="task">
+            <input type="checkbox" name="" id="task25">
+            ميلك شيك نوتيلا
+            <span>12₪</span>
+          </label>
+
+          <label for="task26" class="task">
+            <input type="checkbox" name="" id="task26">
+            ميلك شيك اوريو
+            <span>12₪</span>
+          </label>
+
+          <label for="task27" class="task">
+            <input type="checkbox" name="" id="task27">
+            ميلك شيك لوتوس
+            <span>13₪</span>
+          </label>
+
+          <label for="task28" class="task">
+            <input type="checkbox" name="" id="task28">
+            ميلك شيك بلوبري
+            <span>15₪</span>
+          </label>
+
+          <label for="task29" class="task">
+            <input type="checkbox" name="" id="task29">
+            ميلك شيك فراولة
+            <span>15₪</span>
+          </label>
+
+          <label for="task30" class="task">
+            <input type="checkbox" name="" id="task30">
+            ميلك شيك بستاشيو
+            <span>15₪</span>
+          </label>
+
+          <label for="task31" class="task">
+            <input type="checkbox" name="" id="task31">
+            شاي
+            <span>4₪</span>
+          </label>
+
+          <label for="task32" class="task">
+            <input type="checkbox" name="" id="task32">
+            قهوة
+            <span>2₪</span>
+          </label>
+
+          <label for="task33" class="task">
+            <input type="checkbox" name="" id="task33">
+            نسكافيه
+            <span>4₪</span>
+          </label>
+
+          <label for="task34" class="task">
+            <input type="checkbox" name="" id="task34">
+            نسكافيه مع حليب
+            <span>6₪</span>
+          </label>
+
+          <label for="task35" class="task">
+            <input type="checkbox" name="" id="task35">
+            كابتشينو
+            <span>4₪</span>
+          </label>
+
+          <label for="task36" class="task">
+            <input type="checkbox" name="" id="task36">
+            هوت نوتيلا
+            <span>10₪</span>
+          </label>
+
+          <label for="task37" class="task">
+            <input type="checkbox" name="" id="task37">
+            هوت لوتوس
+            <span>10₪</span>
+          </label>
+
+          <label for="task38" class="task">
+            <input type="checkbox" name="" id="task38">
+            هوت بستاشيو
+            <span>12₪</span>
+          </label>
+
+          <label for="task39" class="task">
+            <input type="checkbox" name="" id="task39">
+            قرطوس كنافة
+            <span>4₪</span>
+          </label>
+
+          <label for="task40" class="task">
+            <input type="checkbox" name="" id="task40">
+            بين نارين
+            <span>8₪</span>
+          </label>
+
+          <label for="task41" class="task">
+            <input type="checkbox" name="" id="task41">
+            إضافات 1
+            <span>1₪</span>
+          </label>
+
+          <label for="task42" class="task">
+            <input type="checkbox" name="" id="task42">
+            إضافات 2
+            <span>2₪</span>
+          </label>
+        </div>
+      </div>
+      <div style="margin-bottom: 20px" align="left">
+      <label> Total Price: </label>
+      <label style="width: 100px"></label>
+      <label>₪</label></div>
+      <button class="btn"> Order Now</button>
+    </div>
+  </div>
+</div>
+<script>
+  var expended = false;
+  function showCheckboxes(){
+    var checkboxes = document.getElementById("checkboxes");
+    if(!expended){
+      checkboxes.style.display = "block";
+      expended = true;
+    }
+    else {
+      checkboxes.style.display = "none";
+      expended = false;
+    }
+  }
+  </script>
+</body>
+</html>
